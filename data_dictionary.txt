@@ -1,0 +1,153 @@
+================================================================================
+DATA DICTIONARY / KAMUS DATA - SUPERSTORE SALES DATASET
+================================================================================
+
+--- ENGLISH VERSION ---
+
+1. Row ID
+   - Data Type: Integer (Numeric)
+   - Summary: A unique sequence number acting as an index for each row in the dataset.
+
+2. Order ID
+   - Data Type: String (Text)
+   - Summary: A unique alphanumeric identifier assigned to each individual customer order.
+
+3. Order Date
+   - Data Type: Date (stored as Text/String, needs conversion in Power Query)
+   - Summary: The specific date when the customer placed the order.
+
+4. Ship Date
+   - Data Type: Date (stored as Text/String, needs conversion in Power Query)
+   - Summary: The specific date when the order was shipped to the customer.
+
+5. Ship Mode
+   - Data Type: String (Categorical)
+   - Summary: The shipping tier selected for the order (e.g., Standard Class, First Class, Second Class).
+
+6. Customer ID
+   - Data Type: String (Text)
+   - Summary: A unique alphanumeric identifier assigned to each customer.
+
+7. Customer Name
+   - Data Type: String (Text)
+   - Summary: The full name of the customer who placed the order.
+
+8. Segment
+   - Data Type: String (Categorical)
+   - Summary: The market sector the customer belongs to (Consumer, Corporate, or Home Office).
+
+9. Country
+   - Data Type: String (Text)
+   - Summary: The country where the order was placed (in this dataset, all are United States).
+
+10. City
+    - Data Type: String (Text)
+    - Summary: The city destination for the order delivery.
+
+11. State
+    - Data Type: String (Text)
+    - Summary: The state destination for the order delivery.
+
+12. Postal Code
+    - Data Type: Float/Integer (Numeric)
+    - Summary: The specific zip code/postal code for the delivery address.
+
+13. Region
+    - Data Type: String (Categorical)
+    - Summary: The broader geographic region of the delivery (e.g., South, West, Central, East).
+
+14. Product ID
+    - Data Type: String (Text)
+    - Summary: A unique alphanumeric identifier for the specific item sold.
+
+15. Category
+    - Data Type: String (Categorical)
+    - Summary: The high-level classification of the product (Furniture, Office Supplies, Technology).
+
+16. Sub-Category
+    - Data Type: String (Categorical)
+    - Summary: The detailed sub-classification of the product (e.g., Chairs, Labels, Bookcases).
+
+17. Product Name
+    - Data Type: String (Text)
+    - Summary: The descriptive full name or title of the product sold.
+
+18. Sales
+    - Data Type: Float (Numeric/Currency)
+    - Summary: The total monetary value (revenue) generated from the transaction.
+
+
+--- VERSI INDONESIA ---
+
+1. Row ID (ID Baris)
+   - Tipe Data: Integer (Angka)
+   - Ringkasan: Nomor urut unik yang berfungsi sebagai indeks untuk setiap baris dalam dataset.
+
+2. Order ID (ID Pesanan)
+   - Tipe Data: String (Teks)
+   - Ringkasan: Kode unik alfanumerik yang diberikan untuk setiap transaksi pesanan pelanggan.
+
+3. Order Date (Tanggal Pesan)
+   - Tipe Data: Date (tersimpan sebagai Teks/String, perlu diubah ke format Tanggal di Power Query)
+   - Ringkasan: Tanggal spesifik ketika pelanggan melakukan pemesanan.
+
+4. Ship Date (Tanggal Kirim)
+   - Tipe Data: Date (tersimpan sebagai Teks/String, perlu diubah ke format Tanggal di Power Query)
+   - Ringkasan: Tanggal spesifik ketika pesanan mulai dikirimkan kepada pelanggan.
+
+5. Ship Mode (Mode Pengiriman)
+   - Tipe Data: String (Kategorikal)
+   - Ringkasan: Jenis layanan pengiriman yang dipilih (misalnya: Kelas Standar, Kelas Satu, Kelas Dua).
+
+6. Customer ID (ID Pelanggan)
+   - Tipe Data: String (Teks)
+   - Ringkasan: Kode unik alfanumerik yang diberikan secara spesifik untuk setiap pelanggan.
+
+7. Customer Name (Nama Pelanggan)
+   - Tipe Data: String (Teks)
+   - Ringkasan: Nama lengkap dari pelanggan yang melakukan transaksi.
+
+8. Segment (Segmen)
+   - Tipe Data: String (Kategorikal)
+   - Ringkasan: Kategori pasar tempat pelanggan berada (Konsumen, Korporat, atau Kantor Rumahan/Home Office).
+
+9. Country (Negara)
+   - Tipe Data: String (Teks)
+   - Ringkasan: Negara asal pemesanan (dalam dataset ini, seluruhnya adalah Amerika Serikat).
+
+10. City (Kota)
+    - Tipe Data: String (Teks)
+    - Ringkasan: Kota tujuan pengiriman pesanan.
+
+11. State (Negara Bagian / Provinsi)
+    - Tipe Data: String (Teks)
+    - Ringkasan: Negara bagian tujuan pengiriman pesanan.
+
+12. Postal Code (Kode Pos)
+    - Tipe Data: Float/Integer (Angka)
+    - Ringkasan: Kode pos spesifik untuk alamat pengiriman.
+
+13. Region (Wilayah)
+    - Tipe Data: String (Kategorikal)
+    - Ringkasan: Pembagian wilayah geografis yang lebih luas untuk pengiriman (misalnya: Selatan, Barat, Tengah, Timur).
+
+14. Product ID (ID Produk)
+    - Tipe Data: String (Teks)
+    - Ringkasan: Kode unik alfanumerik untuk setiap item barang yang dijual.
+
+15. Category (Kategori)
+    - Tipe Data: String (Kategorikal)
+    - Ringkasan: Klasifikasi tingkat atas dari produk (Furnitur, Alat Tulis Kantor/Office Supplies, Teknologi).
+
+16. Sub-Category (Sub-Kategori)
+    - Tipe Data: String (Kategorikal)
+    - Ringkasan: Klasifikasi turunan yang lebih detail dari produk (misalnya: Kursi, Label, Rak Buku).
+
+17. Product Name (Nama Produk)
+    - Tipe Data: String (Teks)
+    - Ringkasan: Nama lengkap yang deskriptif dari produk yang dijual.
+
+18. Sales (Penjualan / Pendapatan)
+    - Tipe Data: Float (Angka/Mata Uang)
+    - Ringkasan: Total nilai uang (pendapatan) yang dihasilkan dari satu baris transaksi pesanan.
+================================================================================
